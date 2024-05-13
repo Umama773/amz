@@ -1,0 +1,272 @@
+
+:root{
+    --primary: #8300a3;
+    --secondary: #FF8E4F;
+    --black: #2d3436;
+    --white: #ffffff;
+    --main: #f8f1fa;
+    --text: #67687a;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  background-color: var(--primary);
+}
+  /* ---------general---------- */
+  body{
+    background-color: var(--main);
+    color: var(--black);
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+.rounded{
+    border-radius: 20px !important;
+}
+  input,
+input::placeholder {
+    font: 14px sans-serif;
+}
+.card{
+  border: none;
+  border-radius: 14px;
+}
+/* icons */
+.list-icon{
+    color: var(--primary);
+}
+.icon{
+    font-size: 12px;
+    -webkit-text-stroke: 0.5px; 
+}
+  /* ---------button---------- */
+  .btn{
+    background: none;
+    border: none;
+    box-shadow: none;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+  /* ---------fonts design---------- */
+.text-primary{
+    color: var(--primary) !important;
+}
+  /* ---------fonts---------- */
+  .main-heading{
+    font-size: 70px;
+    font-weight: 800;
+}
+.sub-heading{
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.heading{
+    font-size: 40px;
+    font-weight: 700;
+}
+.text{
+    font-size: 18px;
+    /* color: var(--text); */
+}
+/* card */
+.title{
+  font-size: 22px;
+  font-weight: 700;
+}
+.small-text{
+  font-size: 14px;
+}
+/* media query */
+@media (max-width: 1440px){
+  .main-heading{
+}
+.sub-heading{
+}
+.heading{
+}
+.text{
+}
+/* card */
+.title{
+}
+.small-text{
+}
+}
+@media (max-width: 1024px){
+  .btn{
+    font-size: 14px;
+    padding: 10px 11px;
+  }
+  .main-heading{
+    font-size: 45px;
+  }
+  .sub-heading{
+  }
+  .heading{
+    font-size: 30px;
+  }
+  .text{
+    font-size: 16px;
+  }
+  /* card */
+  .title{
+    font-size: 18px;
+  }
+  .small-text{
+    font-size: 14px;
+  }
+}
+@media (max-width: 991px){
+  .btn{
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+  .main-heading{
+    font-size: 40px;
+  }
+  .sub-heading{
+    font-size: 40px;
+  }
+  .heading{
+    font-size: 25px;
+  }
+  .text{
+    font-size: 16px;
+  }
+  /* card */
+  .title{
+  }
+  .small-text{
+  }
+}
+@media (max-width: 600px){
+  .btn{
+    font-size: 8px;
+    padding: 8px 10px;
+  }
+  .main-heading{
+    font-size: 30px;
+  }
+  .sub-heading{
+    font-size: 30px;
+  }
+  .heading{
+    font-size: 20pxs;
+  }
+  .text{
+    font-size: 12px;
+  }
+  /* card */
+  .title{
+  }
+  .small-text{
+  }
+}
+@media (max-width: 400px){
+  .btn{
+    font-size: 8px;
+    padding: 8px 10px;
+  }
+  .main-heading{
+    font-size: 30px;
+  }
+  .sub-heading{
+    font-size: 25px;
+  }
+  .heading{
+  }
+  .text{
+    font-size: 12px;
+  }
+  /* card */
+  .title{
+  }
+  .small-text{
+  }
+}
+  /* ---------slider---------- */
+  /* SLIDER DOT */
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  bottom: -40px;
+}
+.slick-dots li.slick-active button {
+  background-color: var(--main);
+}
+.slick-dots li button {
+  background-color: var(--secondary);
+  border-radius: 50%;
+  padding: 0;
+  width: 10px;
+  height: 10px;
+}
+.slick-dots li button::before {
+  content: "";
+}
+  /* slider arrow */
+
+  /* .slick-arrow {
+    font-size: 1px !important;
+  }
+  .slider .slick-arrow {
+    background: var(--secondary);
+    color: var(--white);
+    opacity: 0.7;
+    z-index: 1;
+    width: 3rem;
+    height: 3rem;
+    transform: translateY(-50%);
+    font-size: 20px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.25s;
+  }
+  .slider .slick-arrow:hover,
+  .slider .slick-arrow:focus {
+    border-color: white;
+    opacity: 0.95;
+  }
+  .slider .slick-arrow:active {
+    transform: translateY(-50%) scale(0.9);
+  }
+.slick-arrow {
+    top: 105%;
+}
+.slick-prev{
+      left: 42%;
+    }
+    .slick-next{
+        right: 42%;
+  }
+  .slick-prev:before {
+    content: "←";
+    font-size: 30px;
+}
+  .slick-next:before {
+    content: "→";
+    font-size: 30px;
+  } */
+  /* ---------according---------- */
+  .accordion{
+        --bs-accordion-active-color:  unset;
+  }
+.accordion-item{
+    margin-bottom: 12px;
+    border: 1px solid var(--primary) !important;
+    border-radius: 12px !important;
+  }
+  .accordion-button{
+    font-weight: 700;
+  }
+  .accordion-button:not(.collapsed),
+  .accordion-button:not(.collapsed):focus,
+  .accordion-button:not(.collapsed).active{
+    background-color: unset;
+    box-shadow: unset;
+  }
+  .accordion-button:not(.collapsed) {
+    color: unset;
+  }
